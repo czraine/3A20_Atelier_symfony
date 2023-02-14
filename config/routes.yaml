@@ -4,3 +4,9 @@ index:
 showteacher:
     path: /teacher
     controller: App\Controller\TeacherController::showTeacher
+List:
+    path: /list
+    controller: App\Controller\listController::List
+detail:
+    path: /detail
+    controller: App\Controller\listController::detail
